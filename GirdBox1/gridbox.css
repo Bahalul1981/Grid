@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+.d-grid {
+  display: grid;
+  gap: 3px;
+  height: 100vh;
+  grid-template-rows: auto auto 1fr auto 1fr;
+  grid-area: "box1";
+}
